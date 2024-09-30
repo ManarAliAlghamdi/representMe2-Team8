@@ -47,7 +47,7 @@ struct ContentView: View {
                         .background(LinearGradient(colors: [Color.gray.opacity(0.2), Color.purple.opacity(0.5)], startPoint: .top, endPoint: .bottom))                        .foregroundColor(.white)
                         .cornerRadius(10)
                 }
-                NavigationLink(destination: joud()) {
+                NavigationLink(destination: JoudAlamri()) {
                     Text("Joud")
                         .font(.title)
                         .padding()
@@ -72,13 +72,7 @@ struct aljoharah: View {
             .padding()
     }
 }
-struct joud: View {
-    var body: some View {
-        Text("This is joud's Screen")
-            .font(.largeTitle)
-            .padding()
-    }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
