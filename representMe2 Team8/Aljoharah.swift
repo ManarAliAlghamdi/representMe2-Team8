@@ -9,10 +9,27 @@ import SwiftUI
 
 struct Aljoharah: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack (spacing :100){
+            Image("hh")
+                .resizable()
+                .scaledToFill()
+                .frame(width:200, height:200)
+                .clipShape(Circle())
+                .padding(6)
+                .overlay(
+                    Circle()
+                        .stroke(Color.red , lineWidth: 3))
+            VStack{
+                Text("Aljoharah bin taleb")
+                    .foregroundStyle(.pink)
+                    .bold()
+                Text("I'm 21 years old and my major is programmer.")
+                
+            }
+        }
+       .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
     }
 }
-
 #Preview {
     Aljoharah()
 }
