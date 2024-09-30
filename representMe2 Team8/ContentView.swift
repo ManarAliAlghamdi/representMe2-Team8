@@ -63,29 +63,7 @@ struct ContentView: View {
     }
 }
 
-struct manar: View {
-    var body: some View {
-        Text("this is Manar's screen")
-            .font(.largeTitle)
-            .padding()
-    }
-}
 
-struct albatoul: View {
-    var body: some View {
-        Text("This is albatoul's Screen")
-            .font(.largeTitle)
-            .padding()
-    }
-}
-
-struct fai: View {
-    var body: some View {
-        Text("This is fai's Screen")
-            .font(.largeTitle)
-            .padding()
-    }
-}
 
 struct aljoharah: View {
     var body: some View {
